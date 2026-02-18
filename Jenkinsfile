@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/ritupatil2706/ci-cd-pipeline.git'
+                git branch: 'main', url: 'https://github.com/ritupatil2706/ci-cd-pipeline.git.r'
             }
         }
 
